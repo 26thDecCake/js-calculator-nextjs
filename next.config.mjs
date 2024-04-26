@@ -1,4 +1,7 @@
 /** @type {import("next").NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  basePath: "/js-calculator-nextjs",
+  output: "export",
+};
 
 export default nextConfig;
